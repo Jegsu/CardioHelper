@@ -45,11 +45,19 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
-    implementation 'org.osmdroid:osmdroid-android:6.1.6'
     implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'androidx.wear:wear:1.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //graph
+    implementation 'com.jjoe64:graphview:4.2.2'
+
+    //mapbox
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-sdk-turf:5.5.0'
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
 
     // room database
     def room_version = "2.2.5"

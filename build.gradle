@@ -1,9 +1,10 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.3.72"
+    ext.kotlin_version = "1.4.10"
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.1"
@@ -18,6 +19,19 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                // Do not change the username below.
+                // This should always be `mapbox` (not your username).
+                username = 'mapbox'
+                // Use the secret token you stored in gradle.properties as the password
+                password = project.properties['sk.eyJ1IjoiamVnc3UiLCJhIjoiY2tmdmVoY2d4MTF1bTJxbHI4c2lyeGM5diJ9.hS8G_9wBhUpGQKJ42YOuVQ'] ?: ""
+            }
+        }
     }
 }
 

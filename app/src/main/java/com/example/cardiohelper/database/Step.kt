@@ -4,4 +4,4 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class Step(val time: String, @PrimaryKey (autoGenerate = true) val uid: Int = 0)
+data class Step(val time: String, @PrimaryKey (autoGenerate = true) val id: Int = 0)

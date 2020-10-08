@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/action_tracker"
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_baseline_timer_24"
+        android:contentDescription="@string/action_chronometer"
+        android:title="@string/action_chronometer"
+        app:showAsAction="always" />
 </menu>

@@ -13,5 +13,14 @@ interface StepDao {
     fun insert(step: Step)
 
     @Query("SELECT COUNT(*) FROM step")
-    fun getAllSteps(): LiveData<Int>
+    fun getAllStepsLive(): LiveData<Int>
+
+    @Query("SELECT COUNT(*) FROM step")
+    fun getAllSteps(): Int
+
+    @Query("SELECT COUNT(*) FROM step WHERE step.time = :today")
+    fun getTodayStepsLive(today: String): LiveData<Int>
+
+    @Query("SELECT COUNT(*) FROM step WHERE step.time = :today")
+    fun getTodaySteps(today: String): Int
 }

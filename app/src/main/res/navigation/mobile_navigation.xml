@@ -7,19 +7,23 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.cardiohelper.ui.tracker.TrackerFragment"
+        android:name="com.example.cardiohelper.ui.home.HomeFragment"
+        android:contentDescription="Home"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_tracker" />
+        tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_graph"
-        android:name="com.example.cardiohelper.ui.graph.GraphFragment"
-        android:label="@string/menu_graph"
-        tools:layout="@layout/fragment_graph" />
 
-    <fragment
         android:id="@+id/nav_history"
         android:name="com.example.cardiohelper.ui.history.HistoryFragment"
+        android:contentDescription="History"
         android:label="@string/menu_history"
         tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.cardiohelper.ui.settings.SettingsFragment"
+        android:contentDescription="Settings"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
