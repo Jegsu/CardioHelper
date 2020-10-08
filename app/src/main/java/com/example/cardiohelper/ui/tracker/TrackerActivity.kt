@@ -8,15 +8,13 @@ import android.graphics.Color
 import android.location.LocationManager
 import android.os.Bundle
 import android.os.SystemClock
-import android.util.Log
 import android.widget.Chronometer
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.location.LocationManagerCompat
 import com.example.cardiohelper.R
 import com.example.cardiohelper.database.Session
 import com.example.cardiohelper.database.UserDB
-import com.example.cardiohelper.ui.util.Formatter
+import com.example.cardiohelper.util.Formatter
 import com.mapbox.android.core.location.*
 import com.mapbox.android.core.permissions.PermissionsListener
 import com.mapbox.android.core.permissions.PermissionsManager

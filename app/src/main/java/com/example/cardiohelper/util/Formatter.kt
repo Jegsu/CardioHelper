@@ -1,4 +1,4 @@
-package com.example.cardiohelper.ui.util
+package com.example.cardiohelper.util
 
 import android.annotation.SuppressLint
 import java.text.SimpleDateFormat

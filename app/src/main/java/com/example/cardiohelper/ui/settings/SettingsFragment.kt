@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import com.example.cardiohelper.R
-import com.example.cardiohelper.ui.util.User
+import com.example.cardiohelper.util.User
 import kotlinx.android.synthetic.main.fragment_settings.view.*
 
 class SettingsFragment : Fragment() {

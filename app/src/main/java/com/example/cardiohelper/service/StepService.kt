@@ -12,7 +12,7 @@ import androidx.core.app.NotificationManagerCompat
 import com.example.cardiohelper.R
 import com.example.cardiohelper.database.Step
 import com.example.cardiohelper.database.UserDB
-import com.example.cardiohelper.ui.util.User
+import com.example.cardiohelper.util.User
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

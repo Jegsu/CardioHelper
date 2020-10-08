@@ -8,7 +8,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cardiohelper.R
 import com.example.cardiohelper.database.Session
-import com.example.cardiohelper.ui.util.Formatter
+import com.example.cardiohelper.util.Formatter
 import kotlinx.android.synthetic.main.history_recycler_list.view.*
 
 class HistoryViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)

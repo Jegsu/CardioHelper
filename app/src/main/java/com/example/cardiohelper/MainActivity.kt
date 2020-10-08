@@ -26,10 +26,8 @@ import com.example.cardiohelper.service.StepService
 import com.example.cardiohelper.ui.settings.SettingsFragment.Companion.USER_KEY_DAILY_STEP_GOAL
 import com.example.cardiohelper.ui.settings.SettingsFragment.Companion.USER_KEY_NAME
 import com.example.cardiohelper.ui.tracker.TrackerActivity
-import com.example.cardiohelper.ui.util.User
+import com.example.cardiohelper.util.User
 import com.mapbox.mapboxsdk.Mapbox
-import kotlinx.android.synthetic.main.fragment_home.view.*
-import kotlinx.android.synthetic.main.nav_header_main.*
 
 class MainActivity : AppCompatActivity() {
 
