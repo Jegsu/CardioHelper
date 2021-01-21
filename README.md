@@ -18,8 +18,8 @@ Follow this guide to setup mapbox!
 https://docs.mapbox.com/android/maps/overview/#configure-credentials
 
 # Images
-!(/images/1.png)
-!(/images/2.png)
-!(/images/3.png)
-!(/images/4.png)
-!(/images/5.png)
+![1](/images/1.png)
+![2](/images/2.png)
+![3](/images/3.png)
+![4](/images/4.png)
+![5](/images/5.png)
